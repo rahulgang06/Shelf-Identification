@@ -1,0 +1,6 @@
+Create a docker image -
+--->  docker build -t my-django-app .
+
+
+Run application in docker -
+---> docker run -d -p 8000:8000 my-django-app
